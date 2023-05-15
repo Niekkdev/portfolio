@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Inter:wght@500&family=Josefin+Sans:wght@400;500&display=swap');
+
+body {
+    background-color: #335065;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.profile .picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.profile .picture:hover {
+    transform: scale(1.15);
+}
+
+.profile .name {
+    text-align: center;
+    padding: 42px;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+}
+
+.profile .lore {
+    text-align: center;
+    padding: 42px;
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 28px;
+    font-family: 'Hind Madurai', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 1s;
+}
+
+a:hover {
+    color: rgb(235, 122, 122);
+}
