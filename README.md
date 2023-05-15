@@ -1,2 +1,2 @@
 # portfolio
-Short website what based of linktree
+Short website what is based of linktree, I use it for my dev portfolio but you can also use it for other things
